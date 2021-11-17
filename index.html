@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  </head>
+<body>
+  <header>
+    <nav class="header-nav">
+
+    </nav>
+  </header>
+  <div class="bg-video w-100 h-100">
+    <video autoplay muted loop id="myVideo">
+      <source src="./audio/background Effect Compressed.mp4" type="video/mp4">
+    </video>
+  </div>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+  <div class="canvas">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="btn-keys">
+          <div class="key65" id="key1">
+            <kbd>A</kbd>
+            <span class="sound">CLAP</span>
+          </div>
+          <div class="key83" id="key1">
+            <kbd>S</kbd>
+            <span class="sound">HIHAT</span>
+          </div>
+          <div class="key68" id="key1">
+            <kbd>D</kbd>
+            <span class="sound">KICK</span>
+          </div>
+          <div class="key70" id="key1">
+            <kbd>F</kbd>
+            <span class="sound">OPENHAT</span>
+          </div>
+          <div class="key71" id="key1">
+            <kbd>G</kbd>
+            <span class="sound">BOOM</span>
+          </div>
+          <div class="key72" id="key1">
+            <kbd>H</kbd>
+            <span class="sound">RIDE</span>
+          </div>
+          <div class="key74" id="key1">
+            <kbd>J</kbd>
+            <span class="sound">SNARE</span>
+          </div>
+          <div class="key75" id="key1">
+            <kbd>K</kbd>
+            <span class="sound">TOM</span>
+          </div>
+          <div class="key76" id="key1">
+            <kbd>L</kbd>
+            <span class="sound">TINK</span>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+
+  <audio class="key-65" src="./audio/clap.wav"></audio>
+  <audio class="key-83" src="./audio/hihat.wav"></audio>
+  <audio class="key-68" src="./audio/kick.wav"></audio>
+  <audio class="key-70" src="./audio/openhat.wav"></audio>
+  <audio class="key-71"src="./audio/boom.wav"></audio>
+  <audio class="key-72" src="./audio/ride.wav"></audio>
+  <audio class="key-74" src="./audio/snare.wav"></audio>
+  <audio class="key-75" src="./audio/tom.wav"></audio>
+  <audio class="key-76" src="./audio//tink.wav"></audio>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+   
+    <script src="js/index.js"></script>   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
